@@ -29,7 +29,7 @@ return {
         vim.keymap.set('n', '<leader>g' .. postfix, '<cmd>' .. cmd .. '<cr>', { desc = description })
       end
       map('s', 'G', 'Open git [S]tatus')
-      map('cc', 'Git commit', '[C]ommit staged [C]hanges')
+      map('c', 'Git commit', '[C]ommit staged changes')
       map('p', 'Git push', '[P]ush commits')
     end,
   },
