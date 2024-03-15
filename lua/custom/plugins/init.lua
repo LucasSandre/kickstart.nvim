@@ -30,7 +30,9 @@ return {
       end
       map('s', 'G', 'Open git [S]tatus')
       map('c', 'Git commit', '[C]ommit staged changes')
-      map('p', 'Git push', '[P]ush commits')
+      map('l', 'Git pull', 'Pu[l]l remote changes')
+      map('h', 'Git push', 'Pus[h] commits')
+      map('f', 'Git fetch', '[F]etch remote changes')
     end,
   },
 }
