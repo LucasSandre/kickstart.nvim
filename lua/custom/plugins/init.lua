@@ -16,10 +16,14 @@ return {
           mason = {
             enabled = true,
           },
+          mini = {
+            enabled = true,
+            indentscope_color = 'mocha',
+          },
         },
       }
-      vim.cmd.colorscheme 'catppuccin-mocha'
-      vim.cmd.hi 'Comment gui=none'
+      vim.cmd.colorscheme 'catppuccin'
+      --vim.cmd.hi 'Comment gui=none'
     end,
   },
   {
