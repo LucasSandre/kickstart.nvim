@@ -166,6 +166,7 @@ vim.opt.scrolloff = 15
 -- Vim Treesitter Fold.
 vim.opt.foldmethod = 'expr'
 vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.opt.foldopen:remove 'block' -- Allow '{' '}' to jump over folds
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
