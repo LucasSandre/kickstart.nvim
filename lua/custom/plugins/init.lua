@@ -48,6 +48,7 @@ return {
     },
     config = function()
       require('nvim-tree').setup {}
+      vim.keymap.set('n', '<leader>st', '<cmd>NvimTreeToggle<cr>', { desc = '[S]earch File [T]ree.' })
     end,
   },
 }
