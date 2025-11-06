@@ -133,7 +133,7 @@ vim.opt.smartcase = true
 
 -- Expand tab.
 vim.opt.expandtab = false
-vim.opt.tabstop = 2
+vim.opt.tabstop = 8
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 
@@ -588,7 +588,7 @@ require('lazy').setup({
           },
         },
         angularls = {},
-        volar = {},
+        vue_ls = {},
         --
 
         lua_ls = {
